@@ -9,6 +9,7 @@ import (
 func main() {
 	aSecret := os.Getenv("A_SECRET")
 	fmt.Println(aSecret)
+	fmt.Println(aSecret)
 	fmt.Println(reverseString(aSecret))
 }
 
